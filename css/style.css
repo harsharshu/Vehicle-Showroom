@@ -72,7 +72,7 @@ body{
 
   .flex-item-left {
     opacity: 0.5;
-    height: 500px;
+    height: 600px;
     padding: 10px;
     flex: 50%;
   }
