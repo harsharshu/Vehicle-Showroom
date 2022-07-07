@@ -1,8 +1,9 @@
-* {
+body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    background-color: black;
   }
   
   .container {
@@ -28,7 +29,7 @@
   nav {
     height: 10vh;
     line-height: 10vh;
-    background: white;
+    background:#282A2D;
     text-align: center;
   }
   
@@ -48,13 +49,13 @@
   
   nav li a {
     text-decoration: none;
-    color: #000;
+    color: white;
     text-transform: capitalize;
     transition: 0.5s;
   }
   
   nav li a:hover {
-    color: #37B234;
+    color: #e7dfdd;
   }
   
   .media_button i {
@@ -63,8 +64,12 @@
   }
   
   .account i {
-    color: #37B234;
+    color: white;
     margin: 30px 20px 0 0;
+  }
+
+  .account p {
+    color: white;
   }
   
   @media only screen and (max-width:768px) {
@@ -96,7 +101,7 @@
     .media_button i {
       display: block;
       margin-top: 20px;
-      background: #37b234;
+      background: #0003ff;
       padding: 10px;
       color: white;
       cursor: pointer;
@@ -111,6 +116,7 @@
   /*----------home--------*/
   .left {
     width: 35%;
+    
   }
   
   .right {
@@ -123,12 +129,14 @@
     margin: 20px 20px 0 0;
     border-radius: 50px;
     border: none;
-    background: #37B234;
-    color: white;
+    background: white;
+    color: black;
   }
   
   .btn1 {
-    border: 2px solid white;
+    border: 2px;
+    box-shadow: inset;
+    color:#000
   }
   
   .btn2 {
@@ -154,7 +162,8 @@
     content: '';
     position: absolute;
     top: 0;
-    background-image: url('../image/slide.png');
+    background-color: black;
+    /* background-image: url('../image/slide.png');   */
     background-size: contain;
     background-repeat: no-repeat;
     height: 120vh;
@@ -181,6 +190,7 @@
   
   .home h2 {
     font-size: 50px;
+    color: white;
     margin: 20px 0 20px 0;
   }
   
@@ -203,6 +213,7 @@
   .heading h1 {
     font-size: 40px;
     font-weight: 400;
+    color: white;
   }
   
   .heading button {
@@ -256,18 +267,20 @@
   .latest .scontainer {
     padding: 50px;
     text-align: center;
+    background-color: black;
   }
   
   .latest .box {
-    background: #f9f9f9;
+    background: #282A2D;
+    color: white;
     padding: 30px;
-    border: 1px solid #e3e3e3;
     border-radius: 10px;
     transition: 0.5s;
   }
   
   .latest .box:hover {
-    border: 1px solid #37B234;
+    background-color: black;
+    color: white;
     cursor: pointer;
   }
   
@@ -287,19 +300,19 @@
     line-height: 50px;
     border-radius: 50%;
     color: white;
-    background: #37B234;
+    background: #aadefa;
     text-align: center;
   }
   
   .latest .img i {
-    color: #37B234;
+    color: #adefd1ff;
     font-size: 20px;
     line-height: 50px;
   }
   
   .latest .detalis h2 {
     font-weight: 400;
-    color: #37B234;
+    color: #adefd1ff;
     margin: 20px 0 20px 0;
   }
   
@@ -321,7 +334,7 @@
   }
   
   .slider {
-    background: #37B234;
+    background: #282A2D;
     padding: 80px 0 0 0;
     color: white;
   }
@@ -398,7 +411,7 @@
     left: 0;
     width: 100%;
     height: 100vh;
-    background: rgba(55, 179, 52, 0.83);
+    background: #282A2D;
   }
   
   .wrapper .scontainer {
@@ -433,7 +446,7 @@
   /*----------shipping--------*/
   .shipping {
     padding: 50px;
-    background: #37B234;
+    background:#adefd1ff;
     color: white;
   }
   
@@ -562,18 +575,18 @@
   
     /*----------latest--------*/
     /*----------slider--------*/
-    .slider .item {
+    /* .slider .item {
       flex-direction: column;
       flex-direction: column-reverse;
     }
-  
+   */
     /*----------slider--------*/
-    .shipping .grid {
+    /* .shipping .grid {
       grid-template-columns: repeat(1, 1fr);
     }
-  }
+  } */
   
-  @media only screen and (max-width:511px) {
+  /* @media only screen and (max-width:511px) {
     .home::after {
       height: 100vh;
     }
@@ -602,4 +615,5 @@
     .shipping {
       padding: 50px 0 50px 0;
     }
-  }
+  } */
+}
