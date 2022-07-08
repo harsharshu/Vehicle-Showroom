@@ -1,13 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
-:root{
+ :root{
     --yellow:#f9d806;
-    --light-yellow:#ffee80;
+    --light-yellow:white;
     --black:#130f40;
     --light-color:#666;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
     --border:.1rem solid rgba(0,0,0,.1);
-}
+    background-color: #282A2D;
+} 
 
 *{
     font-family: 'Poppins', sans-serif;
@@ -17,6 +18,7 @@
     text-decoration: none;
     text-transform: capitalize;
     transition: .2s linear;
+    
 }
 
 html{
@@ -78,12 +80,13 @@ section{
     top:0; left:0; right:0;
     padding:3rem 9%;
     z-index: 1000;
-    background: #fff;
+    background: #282A2D;
 }
 
 .header .logo{
     font-size: 2.5rem;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
     font-weight: bold;
 }
 
@@ -94,7 +97,8 @@ section{
 .header .navbar a{
     margin:0 1rem;
     font-size: 1.7rem;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
 }
 
 .header .navbar a:hover{
@@ -205,7 +209,8 @@ section{
 }
 
 .home h3{
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
     font-size: 7.5vw;
     text-transform: uppercase;
 }
@@ -221,7 +226,8 @@ section{
     gap:1.5rem;
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background: #eee;
+    /* background: #eee; */
+    background-color: #282A2D;
 }
 
 .icons-container .icons{
@@ -240,15 +246,18 @@ section{
     line-height:5rem;
     font-size:2.5rem;
     color:var(--black);
-    background:#eee;
+    background-color:#eee;
     text-align: center;
     border-radius: 50%;
 }
 
 .icons-container .icons .content h3{
     font-size: 2.5rem;
-    color:var(--yellow);
+    /* color:var(--yellow); */
+    color:black;
+    
 }
+
 
 .icons-container .icons .content p{
     font-size: 1.5rem;
@@ -256,7 +265,8 @@ section{
 }
 
 .icons-container .icons:hover{
-    background:var(--black);
+    /* background:var(--black); */
+    background-color: #282A2D;
 }
 
 .icons-container .icons:hover i{
@@ -275,6 +285,10 @@ section{
     padding-bottom: 5rem;
 }
 
+.vehicles h1{
+    color:white;
+    /* text-decoration: none; */
+}
 .vehicles .vehicles-slider .box{
     text-align: center;
 }
@@ -301,25 +315,28 @@ section{
 
 .vehicles .vehicles-slider .box .content h3{
     font-size: 2.5rem;
-    color:var(--black);
+    color:white;
 }
 
 .vehicles .vehicles-slider .box .content .price{
     font-size: 2.2rem;
-    color:var(--yellow);
+    /* color:var(--yellow); */
+    color:white;
     padding:1rem 0;
     font-weight: bolder;
 }
 
 .vehicles .vehicles-slider .box .content .price span{
-    color:var(--light-color);
+    /* color:var(--light-color); */
+    color:white;
     font-size: 1.5rem;
     font-weight: normal;
 }
 
 .vehicles .vehicles-slider .box .content p{
     font-size: 1.6rem;
-    color:var(--light-color);
+    /* color:var(--light-color); */
+    color:white;
     padding: 1rem 0;
     padding-top: 1.5rem;
     border-top: var(--border);
@@ -400,6 +417,9 @@ section{
 .featured .featured-slider .box img{
     height: 15rem;
 }
+.featured h1{
+    color:white;
+}
 
 .featured .featured-slider .box:hover img{
     transform: scale(.9);
@@ -407,7 +427,8 @@ section{
 
 .featured .featured-slider .box .content h3{
     font-size: 2.2rem;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
 }
 
 .featured .featured-slider .box .content .stars{
@@ -421,7 +442,8 @@ section{
 
 .featured .featured-slider .box .content .price{
     font-size: 2.5rem;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
 }
 
 
@@ -436,7 +458,8 @@ section{
 
 .newsletter h3{
     font-size: 3rem;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
 }
 
 .newsletter p{
@@ -489,6 +512,9 @@ section{
     opacity: .4;
     transform: scale(.9);
 }
+.reviews h1{
+    color:white;
+}
 
 .reviews .review-slider .swiper-slide-active{
     opacity: 1;
@@ -512,7 +538,8 @@ section{
 }
 
 .reviews .review-slider .box .content h3{
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
     font-size: 2.2rem;
     padding-bottom: .5rem;
 }
@@ -545,11 +572,15 @@ section{
     text-align: center;
     border-radius: .5rem;
 }
+.contact h1{
+    color:white;
+}
 
 .contact .row form h3{
     font-size: 3rem;
     color:var(--black);
     padding-bottom: 1rem;
+    color:white;
 }
 
 .contact .row form .box{
@@ -560,6 +591,7 @@ section{
     text-transform: none;
     border:var(--border);
     margin:.7rem 0;
+    
 }
 
 .contact .row form textarea{
@@ -568,7 +600,8 @@ section{
 }
 
 .footer{
-    background: var(--light-yellow);
+    /* background: var(--light-yellow); */
+    background-color: #282A2D;
     padding-bottom: 8rem;
 }
 
@@ -581,7 +614,8 @@ section{
 .footer .box-container .box h3{
     font-size: 2.2rem;
     padding:1rem 0;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
 }
 
 .footer .box-container .box a{
@@ -593,7 +627,8 @@ section{
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
 }
 
 .footer .box-container .box a:hover i{
@@ -607,7 +642,8 @@ section{
     margin-top: 2rem;
     border-top: var(--border);
     font-size: 2rem;
-    color:var(--black);
+    /* color:var(--black); */
+    color:white;
 }
 
 

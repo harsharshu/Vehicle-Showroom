@@ -3,6 +3,7 @@ body{
     background-color: #0E0B16;
     margin: 0px;
     padding: 0px;
+    
 }
 
 .navbar {
@@ -73,15 +74,17 @@ body{
   }
 
   .flex-item-left {
+    /* background: blue; */
     opacity: 0.5;
-    height: 600px;
-    padding: 10px;
+    height: 500px;
+    padding: 0px;
     flex: 50%;
   }
   
   .flex-item-right {
+    /* background-color: red; */
     opacity: 0.5;
-    padding: 10px;
+    padding: 0px;
     height: 500px;
     flex: 50%;
   }
