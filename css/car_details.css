@@ -1,5 +1,222 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+}
 .container{
-    width:700px;
-    margin:70px 0 0 50px;
+    background-color:#282A2D;
+    height: 100%;
+    width: 100%;
     display:grid;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: dimgrey;
+    color:white;
+    text-align: left;
+    width:100%;
+    height:50px;
+    font-size: larger;
+}
+.logo{
+    color:yellow
+}
+
+.container .navbar span{
+    color:white;
+}
+.car_details{
+    background-color: #282A2D;
+    width:100%;
+    height:500px;
+    display:grid;
+     box-sizing: border-box; 
+    grid-template-columns: 500px 500px;
+    
+}
+
+.Key_specs{
+    background-color: white;
+    width:95%;
+    height:300px;
+    margin:30px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    box-sizing: border-box;
+}
+.Specs{
+    background-color:red;
+    width:95%;
+    height:400px;
+   margin: 20px 30px 0px 30px;
+   display: grid;
+
+}
+footer{
+    background-color: tomato;
+    color:white;
+}
+.image{
+    background-color: brown;
+     margin-left:30px;
+    width:500px;
+    height:400px; 
+    box-sizing: border-box; 
+   float:left;
+   margin-top: 30px;;
+} 
+.box{
+    background-color: black;
+}
+.scontainer{
+   
+    display:grid;
+    grid-template-columns: 550px 500px auto;
+    width:100%;
+
+
+}
+hr{
+    background-color:white;
+}
+.feature1{
+    background-color:red ;
+    margin:50px;
+    /* display:grid; */
+    box-sizing: border-box;
+    
+}
+.feature2{
+    background-color: orange;
+    margin:50px;
+    box-sizing: border-box;
+}
+.feature3{
+    background-color: yellow;
+    margin:50px;
+    box-sizing: border-box;
+}
+.feature4{
+    background-color: aquamarine;
+    margin:50px;
+    box-sizing: border-box;
+    
+}
+.milage{
+    background-color: aliceblue;
+    margin-top: 3px;
+    margin-left:40px ;
+    margin-right: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    
+
+}
+.value{
+    background-color: brown;
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    margin-bottom: 3px;
+}
+.icon{
+    background-color: black;
+    height:100px;
+    color:white;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size:48px;
+    text-align: center;
+    padding-top:10px;
+}
+
+h1{
+    /* float:right; */
+    margin: 20px 0 20px 0;
+    text-align: middle;
+    
+}
+
+.navbar a.split {
+    float: right;
+    color: white;
+  }
+  .navbar .search-container {
+    float: right;
+  }
+
+  .navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 5px;
+  }
+
+  .navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+  }
+  
+  
+  .navbar .search-container button:hover {
+    background: #ccc;
+  }
+  .car{
+    background-color: aquamarine;
+    
+  }
+
+.details{
+    background-color: #282A2D;
+    margin-top:30px;
+    margin-left:60px;
+    margin-bottom: 70px;
+    width:700px;
+    font-size: larger;
+    color: white;
+}
+
+
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+/* #slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+
+#slider figure img {
+	width: 500px;
+	height : 500px;
+	float: left;
+}
+.details button{
+    box-shadow: inset;
+    background-color:0 0 40px dimgray;
+    border-radius: var(--border-radius);
+    border:none;
+    border-color: #282A2D;
 }

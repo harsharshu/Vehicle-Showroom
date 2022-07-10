@@ -23,7 +23,7 @@ body {
     margin: 1rem;
     padding: 2rem;
     box-shadow: 0 0 40px #f2aa4cff;
-     border-color: #f2aa4cff ;
+    border-color: #f2aa4cff ;
     border-radius: var(--border-radius);
     background:#101820ff;
 }
