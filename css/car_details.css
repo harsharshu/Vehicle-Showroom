@@ -3,14 +3,18 @@ body{
     box-sizing: border-box;
 }
 .container{
-    background-color:#282A2D;
+    background-color:black;
     height: 100%;
     width: 100%;
     display:grid;
     box-sizing: border-box;
 }
+.search-container{
+    margin-bottom: 10px;
+    color:black;
+}
 .navbar{
-    background-color: dimgrey;
+    background-color: #282A2D;
     color:white;
     text-align: left;
     width:100%;
@@ -35,7 +39,7 @@ body{
 }
 
 .Key_specs{
-    background-color: white;
+    /* background-color: white; */
     width:95%;
     height:300px;
     margin:30px;
@@ -79,49 +83,64 @@ hr{
     background-color:white;
 }
 .feature1{
-    background-color:red ;
+    background-color:#282A2D ;
     margin:50px;
     /* display:grid; */
     box-sizing: border-box;
-    
+    color:white;
+   
+}
+
+.icon:hover{
+    background-color: white;
+    color:black;
 }
 .feature2{
-    background-color: orange;
+    background-color: #282A2D;
     margin:50px;
     box-sizing: border-box;
 }
 .feature3{
-    background-color: yellow;
+    background-color: #282A2D;
     margin:50px;
     box-sizing: border-box;
 }
 .feature4{
-    background-color: aquamarine;
+    background-color: #282A2D;
     margin:50px;
     box-sizing: border-box;
     
 }
+.Key_specs i{
+    color:white;
+    background-color: #282A2D;
+}
+.Key_specs{
+    background-color: #282A2D;
+}
 .milage{
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     margin-top: 3px;
     margin-left:40px ;
     margin-right: 40px;
     margin-bottom: 3px;
     text-align: center;
+    color:white;
     
 
 }
 .value{
-    background-color: brown;
+    /* background-color: brown; */
     margin-left: 40px;
     margin-right: 40px;
     text-align: center;
     margin-bottom: 3px;
+    color: white;
 }
 .icon{
-    background-color: black;
+    /* background-color: #282A2D; */
     height:100px;
-    color:white;
+    /* color:white;  */
     box-sizing: border-box;
     margin-top: 20px;
     margin-left: 50px;
@@ -129,6 +148,7 @@ hr{
     font-size:48px;
     text-align: center;
     padding-top:10px;
+    box-shadow: inset black;
 }
 
 h1{
@@ -141,20 +161,20 @@ h1{
 .navbar a.split {
     float: right;
     color: white;
-  }
-  .navbar .search-container {
+}
+.navbar .search-container {
     float: right;
-  }
+}
 
-  .navbar input[type=text] {
+.navbar input[type=text] {
     padding: 6px;
     margin-top: 8px;
     font-size: 17px;
     border: 0px;
     border-radius: 5px;
-  }
+}
 
-  .navbar .search-container button {
+.navbar .search-container button {
     float: right;
     padding: 6px 10px;
     margin-top: 8px;
@@ -164,16 +184,16 @@ h1{
     border: none;
     cursor: pointer;
     border-radius: 2px;
-  }
+}
   
   
-  .navbar .search-container button:hover {
+.navbar .search-container button:hover {
     background: #ccc;
-  }
-  .car{
+}
+.car{
     background-color: aquamarine;
     
-  }
+}
 
 .details{
     background-color: #282A2D;
@@ -219,4 +239,12 @@ h1{
     border-radius: var(--border-radius);
     border:none;
     border-color: #282A2D;
+}
+
+.Specs{
+    display: grid;
+    grid-template-columns: 650px 650px;
+    background-color: #282A2D;
+    color:white;
+    justify-items: center;
 }

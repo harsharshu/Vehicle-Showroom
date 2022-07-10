@@ -1,0 +1,31 @@
+/* void- #0e0b16 fuschia- #a239ca stark-#e7dfdd jewel-#e7dfdd */
+body{
+    background-color:black ;
+    color:#dedede;
+}
+p{
+    font-size: 25px;
+    text-shadow: 2px 2px 5px red;
+}
+* {
+    text-align:left;
+    text-shadow: 2px 2px 5px #ababab;
+    color:white;
+}
+#place{
+    width: 100px
+}
+    
+/* manual{
+    font-size: 500px
+    
+} */
+
+button{
+    box-shadow: outset black;
+    color:black;
+}
+button:hover{
+    background-color: darkslategrey;
+    color: black;
+}
