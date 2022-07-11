@@ -1,0 +1,319 @@
+body{
+    background-color: white;
+    box-sizing: border-box;
+}
+.container{
+    background-color:black;
+    height: 100%;
+    width: 100%;
+    display:grid;
+    box-sizing: border-box;
+}
+.search-container{
+    margin-bottom: 10px;
+    color:black;
+}
+.navbar{
+    background-color: black;
+    color:white;
+    text-align: left;
+    width:100%;
+    height:50px;
+    font-size: larger;
+}
+.logo{
+    color:yellow
+}
+
+.container .navbar span{
+    color:white;
+}
+.car_details{
+    background-color: #282A2D;
+    width:500px;
+    height:500px;
+    margin-left: 100px;
+    display:grid;
+     box-sizing: border-box; 
+    grid-template-columns: 500px 500px;
+    border-radius: 15px;
+  
+}
+#slider{
+    width: 450px;
+}
+
+.Key_specs{
+    /* background-color: white; */
+    width:95%;
+    height:300px;
+    margin:30px;
+    display:grid;
+    grid-template-columns: 350px 350px 350px 350px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    box-shadow: inset #282A2D;
+}
+.Specs{
+    background-color:red;
+    width:95%;
+    height:400px;
+   margin: 20px 30px 0px 30px;
+   display: grid;
+   box-shadow: inset #282A2D;
+   border-radius: 15px;
+}
+footer{
+    background-color: tomato;
+    color:white;
+}
+.image{
+    background-color: brown;
+     margin-left:30px;
+    width:500px;
+    height:400px; 
+    box-sizing: border-box; 
+   float:left;
+   margin-top: 30px;;
+} 
+.box{
+    background-color: black;
+}
+.scontainer{
+   
+    display:grid;
+    grid-template-columns: 550px 500px auto;
+    width:100%;
+
+
+}
+hr{
+    background-color:white;
+}
+.feature1{
+    background-color:#282A2D ;
+    margin:50px;
+    /* display:grid; */
+    box-sizing: border-box;
+    color:white;
+    border-radius: 15px;
+   
+}
+
+.icon:hover{
+    background-color: rgb(29, 26, 26);
+    color:black;
+    border-radius: 25px;
+}
+.feature2{
+    /* background-color: #282A2D; */
+    margin:50px;
+    box-sizing: border-box;
+}
+.feature3{
+    background-color: #282A2D;
+    margin:50px;
+    box-sizing: border-box;
+}
+.feature4{
+    background-color: #282A2D;
+    margin:50px;
+    box-sizing: border-box;
+    
+}
+.Key_specs i{
+    color:white;
+    background-color: #282A2D;
+    border-radius: 15px;
+}
+.Key_specs{
+    background-color: #282A2D;
+}
+.milage{
+    /* background-color: aliceblue; */
+    margin-top: 3px;
+    margin-left:40px ;
+    margin-right: 40px;
+    margin-bottom: 3px;
+    text-align: center;
+    color:white;
+    
+
+}
+.value{
+    /* background-color: brown; */
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+    margin-bottom: 3px;
+    color: white;
+}
+.icon{
+    /* background-color: #282A2D; */
+    height:100px;
+    /* color:white;  */
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-size:48px;
+    text-align: center;
+    padding-top:10px;
+    box-shadow: inset black;
+}
+
+h1{
+    /* float:right; */
+    margin: 20px 0 20px 0;
+    text-align: middle;
+    
+}
+
+.navbar a.split {
+    float: right;
+    color: white;
+}
+.navbar .search-container {
+    float: right;
+}
+
+.navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: 0px;
+    border-radius: 5px;
+}
+
+.navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+  
+  
+.navbar .search-container button:hover {
+    background: #ccc;
+}
+.car{
+    background-color: aquamarine;
+    
+}
+
+.details{
+    background-color: #282A2D;
+    margin-top:30px;
+    margin-left:60px;
+    margin-bottom: 70px;
+    width:700px;
+    font-size: larger;
+    color: white;
+    border-radius: 25px;
+   box-shadow: inset black;
+}
+
+
+#slider {
+	overflow: hidden;
+}
+
+@keyframes slider {
+	0% { left: 0; }
+	30% { left: 0; }
+	33% { left: -100%; }
+	63% { left: -100%; }
+	66% { left: -200%; }
+	95% { left: -200%; }
+	100% { left: 0; }
+}
+#slider figure {
+	width:300%;
+	position: relative;
+	animation: 9s slider infinite;
+}
+
+/* #slider figure:hover {
+	/*animation-play-state: paused; enable for pause on hover*/
+
+#slider figure img {
+	width: 500px;
+	height : 500px;
+	float: left;
+}
+.details button{
+    box-shadow: inset;
+    background-color:0 0 40px dimgray;
+    border-radius: var(--border-radius);
+    border:none;
+    border-color: #282A2D;
+}
+
+.Specs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px 5px;
+    background-color: #282A2D;
+    box-sizing: border-box;
+    color:white;
+    /* justify-items: center; */
+}
+
+/* .sp1{
+    background-color: #282A2D;
+    
+}
+
+.sp2{
+    background-color: #282A2D;
+      
+  }
+  .sp3{
+    background-color: yellow;
+      
+  }
+  .sp4{
+    background-color: blue;
+      
+  }
+  .sp5{
+    background-color: pink;
+      
+  }
+  .sp6{
+    background-color: white;
+      
+  }
+  .sp7{
+    background-color: violet;
+      
+  }
+  .sp8{
+    background-color: orange;
+      
+  } */
+
+  h4{
+    color: white;
+    margin-left: 20px;
+  }
+
+  span{
+    float:inline-start;
+    color: white;
+    margin-left: 20px;
+  }
+  hr{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  button a{
+    cursor: pointer;
+    padding: 25px;
+  }

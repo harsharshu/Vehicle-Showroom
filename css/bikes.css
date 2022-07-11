@@ -33,8 +33,13 @@ body{
     text-align: center;
   }
   
-  .logo img {
+  /* .logo img {
     margin-top: 20px;
+  } */
+
+  .logo h2{
+    color:white;
+    margin-bottom: 50px;
   }
   
   nav ul {
@@ -616,4 +621,8 @@ body{
       padding: 50px 0 50px 0;
     }
   } */
+}
+.logo h2{
+  color:white;
+  margin-bottom: 50px;
 }
