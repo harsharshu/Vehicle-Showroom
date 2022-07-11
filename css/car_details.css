@@ -14,7 +14,7 @@ body{
     color:black;
 }
 .navbar{
-    background-color: #282A2D;
+    background-color: black;
     color:white;
     text-align: left;
     width:100%;
@@ -30,12 +30,16 @@ body{
 }
 .car_details{
     background-color: #282A2D;
-    width:100%;
+    width:500px;
     height:500px;
+    margin-left: 100px;
     display:grid;
      box-sizing: border-box; 
     grid-template-columns: 500px 500px;
-    
+  
+}
+#slider{
+    width: 450px;
 }
 
 .Key_specs{
@@ -88,15 +92,17 @@ hr{
     /* display:grid; */
     box-sizing: border-box;
     color:white;
+    border-radius: 15px;
    
 }
 
 .icon:hover{
-    background-color: white;
+    background-color: rgb(29, 26, 26);
     color:black;
+    border-radius: 25px;
 }
 .feature2{
-    background-color: #282A2D;
+    /* background-color: #282A2D; */
     margin:50px;
     box-sizing: border-box;
 }
@@ -114,6 +120,7 @@ hr{
 .Key_specs i{
     color:white;
     background-color: #282A2D;
+    border-radius: 15px;
 }
 .Key_specs{
     background-color: #282A2D;
@@ -243,8 +250,59 @@ h1{
 
 .Specs{
     display: grid;
-    grid-template-columns: 650px 650px;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 5px 5px;
     background-color: #282A2D;
+    box-sizing: border-box;
     color:white;
-    justify-items: center;
+    /* justify-items: center; */
 }
+
+/* .sp1{
+    background-color: #282A2D;
+    
+}
+
+.sp2{
+    background-color: #282A2D;
+      
+  }
+  .sp3{
+    background-color: yellow;
+      
+  }
+  .sp4{
+    background-color: blue;
+      
+  }
+  .sp5{
+    background-color: pink;
+      
+  }
+  .sp6{
+    background-color: white;
+      
+  }
+  .sp7{
+    background-color: violet;
+      
+  }
+  .sp8{
+    background-color: orange;
+      
+  } */
+
+  h4{
+    color: white;
+    margin-left: 20px;
+  }
+
+  span{
+    float:inline-start;
+    color: white;
+    margin-left: 20px;
+  }
+  hr{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
