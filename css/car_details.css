@@ -1,6 +1,7 @@
 body{
     background-color: white;
     box-sizing: border-box;
+    display:scroll;
 }
 .container{
     background-color:black;

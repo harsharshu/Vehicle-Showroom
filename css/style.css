@@ -3,18 +3,48 @@ body{
     background-color: #0E0B16;
     margin: 0px;
     padding: 0px;
+    /* overflow: hidden; */
+    
     
 }
 
 .navbar {
     width: 100%;
     background-color: #555;
-    overflow: auto;
 }
+
+
+.navbar ul {
+  text-decoration: none;
+  display: inline-flex; 
+  list-style: none;
+  }
+
+  .navbar ul li{
+    padding: 5px;
+    }
+
+    .navbar ul li a{
+      text-decoration: none;
+    }
+
+    .sub-menu{
+      display: none; 
+    }
+    .sub-menu ul li{
+      display:inline-block; 
+    }
+
+  .navbar ul li:hover .sub-menu{
+      display: block;
+      position: absolute;
+      margin-top: 25px;
+      margin-left: 15px;
+    }
 
   .navbar a {
     float: left;
-    padding: 12px;
+    padding: 10px;
     color: white;
     text-decoration: none;
     font-size: 17px;
@@ -22,10 +52,12 @@ body{
 
   .navbar a:hover {
     background-color: #000;
+    border-radius: 5px;
   }
 
   .active {
-    background-color: #04AA6D;
+    border-radius: 5px;
+    background-color: #000;
   }
   @media screen and (max-width: 500px) {
     .navbar a {
@@ -75,7 +107,7 @@ body{
 
   .flex-item-left {
     /* background: blue; */
-    opacity: 0.5;
+    opacity: 0.6;
     height: 500px;
     padding: 0px;
     flex: 50%;
@@ -83,7 +115,7 @@ body{
   
   .flex-item-right {
     /* background-color: red; */
-    opacity: 0.5;
+    opacity: 0.6;
     padding: 0px;
     height: 500px;
     flex: 50%;
@@ -91,8 +123,8 @@ body{
 
   .flex-item-left .btn{
     position: absolute;
-    top: 500px;
-    left: 500px;
+    top: 650px;
+    left: 400px;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color:white;
@@ -101,17 +133,17 @@ body{
     padding: 16px 30px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
     text-align: center;
+    background:white;
     /* margin-right: 800px ; */
   }
   
 
   .flex-item-right .btncar{
     position: absolute;
-    top:500px;
-    left: 70%;
-    
+    top:650px;
+    left: 80%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     background-color: white;
@@ -120,13 +152,9 @@ body{
     padding: 16px 30px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 50px;
     text-align: center;
+    background: white;
     /* margin-right: 800px ; */
   }
 
-  .dropdown{
-      /* position: relative; */
-      display: inline-block;
-    
-  }
