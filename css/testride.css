@@ -10,7 +10,11 @@ p{
 * {
     text-align:left;
     text-shadow: 2px 2px 5px #ababab;
-    color:white;
+    /* color:white; */
+    border-radius: 5px;
+    margin: 9px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
 }
 #place{
     width: 100px
@@ -20,10 +24,22 @@ p{
     font-size: 500px
     
 } */
+#date{
+    color: black;
+}
+
+#cars{
+    margin: 25px;
+    width: 95px;
+    color: black;
+}
 
 button{
     box-shadow: outset black;
     color:black;
+    width: 70px;
+    height:40px
+    
 }
 button:hover{
     background-color: darkslategrey;

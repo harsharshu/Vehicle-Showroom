@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: black;
+  }
+  
+/*----------header--------*/
+nav {
+    height: 10vh;
+    line-height: 10vh;
+    background:#282A2D;
+    text-align: center;
+  }
+  
+  /* .logo img {
+    margin-top: 20px;
+  } */
+
+  .logo h2{
+    color:white;
+    margin-bottom: 50px;
+  }
+  
+  nav ul {
+    width: 100%;
+    display: flex;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    transition: 0.5s;
+  }
+  
+  nav li a:hover {
+    color: #e7dfdd;
+  }
+  
+  .media_button i {
+    font-size: 20px;
+    display: none;
+  }
+  
+  .account i {
+    color: white;
+    margin: 30px 20px 0 0;
+  }
+
+  .account p {
+    color: white;
+  }
+  
+  @media only screen and (max-width:768px) {
+    .main_list {
+      overflow: hidden;
+      height: 0;
+      width: 100%;
+      position: absolute;
+      left: 0;
+      top: 10%;
+      padding: 0 0 0 40px;
+      transition: 0.5s;
+    }
+  
+    nav .show_list {
+      height: 250px;
+      background: white;
+    }
+  
+    nav ul {
+      flex-direction: column;
+    }
+  
+    nav ul li a {
+      line-height: 40px;
+      display: table;
+    }
+  
+    .media_button i {
+      display: block;
+      margin-top: 20px;
+      background: #0003ff;
+      padding: 10px;
+      color: white;
+      cursor: pointer;
+    }
+  
+    .account {
+      display: none;
+    }
+  }
+  
+  /*----------header--------*/
+
+   /*----------Assesories--------*/
+   .Assesories {
+    margin-top: 25%;
+  }
+  

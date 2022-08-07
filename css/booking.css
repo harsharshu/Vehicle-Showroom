@@ -1,0 +1,82 @@
+ body{
+    background-color:#282A2D; 
+ }
+ .main{
+    /* background-color: black; */
+   
+    
+    height:630px;
+    width:900px;
+    color:white;
+    margin: 5px;
+    
+    
+} 
+
+select{
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 5px;
+    box-shadow: inset solid white;
+    border: none;
+    
+    
+}
+
+input{
+    width: 150px;
+    border-radius: 5px;
+    height: 30px;
+    margin: 25px;
+    box-shadow: inset;
+    border: none;
+    border-bottom: 2px solid black;
+
+ 
+}
+
+.sub-main{
+    /* background-color: yellow; */
+    height:500px;
+    width:500px;
+    margin-left:500px;
+    margin-top: 0px;
+    background-color: #323433;
+
+}
+ 
+.navbar{
+    background-color:#535555;
+    height:60px;
+    border-radius: 5px;
+}
+
+.container{
+    display: grid;
+    /* background-color: pink; */
+    height:630px;
+    grid-template-columns: 500px 500px ;
+}
+
+.image{
+    /* background-color: blue;  */
+    height: 250px;
+    margin: 25px;
+}
+
+button{
+    margin: 20px;
+    border-radius: 5px;
+    width: 95px;
+    height: 40px;
+    border: none;
+}
+
+/* booking summary */
+.image label{
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: large;
+      color: white;
+      
+}

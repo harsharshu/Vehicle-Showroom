@@ -219,6 +219,17 @@ h1{
    box-shadow: inset black;
 }
 
+.details p{
+    margin: 10px;
+}
+
+.details button{
+    border-radius: 10px;
+    width: 90px;
+    height: 25px;
+    margin: 10px;
+}
+
 
 #slider {
 	overflow: hidden;
